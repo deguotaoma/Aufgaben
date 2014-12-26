@@ -1,10 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <title>Paid Item</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="PaidItemList" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="active"><a href="#detail" data-toggle="tab">Detail</a></li>
+        <li><a href="#address" data-toggle="tab">Address</a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="detail">
+		    
+			<div class="row">
+			    <div class="col-md-2">ID #####</div>
+				<div class="col-md-2">Date 2014-12-24</div>
+				<div class="col-md-2"><a href="#">Buyer</a></div>
+				<div class="col-md-2">Reciever</div>
+				<div class="col-md-2">Total</div>
+			</div>
+			<!-- item header row -->
+			<div class="row">
+			    <div class="col-md-2"></div>
+				<div class="col-md-2">Product Name</div>
+				<div class="col-md-2">Price</div>
+				<div class="col-md-2">Count</div>
+				<div class="col-md-2">Status</div>
+			</div>
+			<!-- item row -->
+			<div class="row">
+			    <div class="col-md-2"><img src="1.jpg" width="100%" height="100%"></div>
+				<div class="col-md-2"><a href="#">Earring</a></div>
+				<div class="col-md-2">100RMB</div>
+				<div class="col-md-2">20</div>
+				<div class="col-md-2"><input type="text" class="form-control" placeholder="20"></div>
+			</div>
+			<!-- inline form -->
+			<div class="row">
+			    <form action="" class="form-inline">
+			        <div class="col-md-4">
+					    <div class="form-group">
+					        <label>Shipment Nr:</label>
+						</div>
+						<div class="form-group">
+					        <input type="text" class="form-control" placeholder="shipment Nr">
+						</div>
+					</div>
+					<!-- dropdownlist -->
+					<div class="col-md-4">
+					    <ul class="nav nav-pills">
+						    <li class="dropdown">
+							    <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">
+								Confirm
+								<b class="caret"></b>
+								</a>
+						</ul>
+						<ul class="dropdown-menu" role="menu">
+						    <li><a href="#">DDL 1</a></li>
+							<li><a href="#">DDL 2</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+				        <button class="btn btn-primary">submit</button>
+					</div>
+				</form>
+			</div>
+        </div>
+        <div class="tab-pane fade" id="address">
+            <p>Address</p>
+        </div>    
+    </div>
 </body>
 </html>
