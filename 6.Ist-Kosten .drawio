@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T10:45:29.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="G0yiTwKixoFTyhH-vInX" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-24T10:51:10.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="BAqtM7DT0jZbzOvH_QCL" version="14.6.5" type="github">
   <diagram id="5TbdluTKNJDvcX_zOkxE" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,24 @@
             <mxPoint x="370" y="170" as="sourcePoint" />
             <mxPoint x="420" y="120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EX3dg3MqqlWu1X2TF-9P-33" value="PSP-Element" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="189" y="550" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EX3dg3MqqlWu1X2TF-9P-35" value="Auftragsarbeitsvorgang" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="624" y="550" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EX3dg3MqqlWu1X2TF-9P-37" value="CO-Objekt&lt;br&gt;Belegkopf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="680" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX3dg3MqqlWu1X2TF-9P-38" value="CO-Objekt&lt;br&gt;Einzelposten" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="564" y="680" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX3dg3MqqlWu1X2TF-9P-39" value="BELNR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="434" y="630" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EX3dg3MqqlWu1X2TF-9P-40" value="1...n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="444" y="610" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
