@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-24T09:43:08.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="JbgvFr2vynyZ3PvrQcIP" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-24T10:26:16.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="UVjDoHq7jABDWawCfAG4" version="14.6.5" type="github">
   <diagram id="69vXtx48tE_reD0-cK0p" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -180,6 +180,9 @@
         </mxCell>
         <mxCell id="PLfS34GIG5YP79sV-88O-44" value="Kanten &lt;br&gt;(Hierariezeiger)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="592.5" y="625" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLfS34GIG5YP79sV-88O-47" value="Project Info table: &lt;br&gt;Costs, Revenues, Finances" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="815" y="625" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
